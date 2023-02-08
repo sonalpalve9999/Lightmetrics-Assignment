@@ -1,0 +1,13 @@
+.outbox{
+    height :55vh;
+    width: 22vw;
+    flex-direction: column;
+    display: flex;
+   padding-left: 2vw;
+  
+}
+.outbox>img{
+    transform: scale(0.5);
+    margin-bottom: -5vh;
+    margin-left: -6vw;
+}

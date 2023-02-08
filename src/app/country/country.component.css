@@ -1,0 +1,34 @@
+.card-item{
+    height: 100%;
+    max-width: 20vw; 
+    border: 1px solid #aaaaaa; 
+    padding-top: 1vw;
+    padding-left: 2vw;
+   
+  
+}
+.card-image{
+height: 32vh;
+width: 32vh;
+}
+.card-content{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+
+}
+.outer{
+    margin-bottom: 5vh;
+}
+
+@media screen and (max-width:480px){
+    .card-image{
+        height: 10vh;
+        width: 15vw;
+    }
+    .outer{
+        flex-direction: column;
+    }
+    .card-item{
+    }
+}

@@ -1,0 +1,11 @@
+
+   <div class="outer">
+   <div  class="card-item">
+    <img src="{{country.flags.png}}" class="card-image" (click)="openDialogue()" >
+    <div class="card-content">
+    <p class="nameofcountry" *ngIf="country.name.common">{{country.name.common}}</p>
+    <p class="continents"  *ngIf="country.continents">{{country.continents}}</p>
+</div>
+</div>
+</div>
+

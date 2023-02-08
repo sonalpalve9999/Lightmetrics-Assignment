@@ -1,0 +1,15 @@
+<div class="contain">
+        <img src="../../assets/logo.png"/>
+        <div class="search-container" >
+            <input type="text" id= "search" name="search" [(ngModel)]="term">
+            <button >search</button>
+    </div> 
+    </div>
+    <div class="container mt-5">
+    <div class="cards" >
+        <app-country *ngFor="let country of listofCountry$|async|filter:term"
+       [country] = "country" 
+        ></app-country>
+    </div>
+</div>
+
